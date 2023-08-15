@@ -49,6 +49,12 @@ public class Main {
         }
     }
 
+    private void talk(){
+        System.out.println("Hello, this method do nothing.");
+        System.out.println("It's just a test of how to use branches.");
+        System.out.println("Sorry for enter here.");
+        System.out.println("Have a nice day :)");
+    }
     public void case1(){
         reader.nextLine();
 
