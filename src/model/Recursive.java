@@ -91,4 +91,17 @@ public class Recursive {
 
         return r;
     }
+
+    public boolean meAmasONo(int i) {
+
+        boolean love = false;
+
+        if (i == 0) {
+            lov //quedo a medias .o.
+        } if (i == 0) {
+
+        }
+
+        return false;
+    }
 }
