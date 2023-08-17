@@ -45,7 +45,11 @@ public class Main {
                 break;
             case 7:
                 case7();
+            case 8:
+                case8();
                 break;
+            default:
+                System.out.println("Adios usuario");
         }
     }
 
@@ -150,6 +154,15 @@ public class Main {
         for (int i = 0; i < s.length; i++) {
             System.out.println("Billete: " + s[i] + " - Cantidad: " + recursive.billetes(n, r, 0, 0, 0)[i]);
         }
+
+        //Calcular factorial
+        public void case8() {
+            reader.nextLine();
+
+            System.out.println("Ingrese un número para calcular su factorial:");
+            int n = reader.nextInt();
+
+            System.out.println("Factorial de " + n + ": " + recursive.factorial(n));
     }
 
     public void modification(){
