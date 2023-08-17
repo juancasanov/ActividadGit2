@@ -151,4 +151,9 @@ public class Main {
             System.out.println("Billete: " + s[i] + " - Cantidad: " + recursive.billetes(n, r, 0, 0, 0)[i]);
         }
     }
+
+    public void modification(){
+        System.out.println("This is a new method");
+    }
+    
 }
