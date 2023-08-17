@@ -45,10 +45,20 @@ public class Main {
                 break;
             case 7:
                 case7();
+            case 8:
+                case8();
                 break;
+            default:
+                System.out.println("Adios usuario");
         }
     }
 
+    private void talk(){
+        System.out.println("Hello, this method do nothing.");
+        System.out.println("It's just a test of how to use branches.");
+        System.out.println("Sorry for enter here.");
+        System.out.println("Have a nice day :)");
+    }
     public void case1(){
         reader.nextLine();
 
@@ -144,5 +154,19 @@ public class Main {
         for (int i = 0; i < s.length; i++) {
             System.out.println("Billete: " + s[i] + " - Cantidad: " + recursive.billetes(n, r, 0, 0, 0)[i]);
         }
+
+        //Calcular factorial
+        public void case8() {
+            reader.nextLine();
+
+            System.out.println("Ingrese un número para calcular su factorial:");
+            int n = reader.nextInt();
+
+            System.out.println("Factorial de " + n + ": " + recursive.factorial(n));
     }
+
+    public void modification(){
+        System.out.println("This is a new method");
+    }
+    
 }
