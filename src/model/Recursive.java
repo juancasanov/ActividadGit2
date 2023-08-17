@@ -1,5 +1,7 @@
 package model;
 
+//Esta es la rama Hotfix, tuvimos un problema y tuvimos que corregirlo.
+//Espero que no se hayan causado muchos inconvenientes.
 public class Recursive {
 
     public int sum(int n[], int i, int acc) {
